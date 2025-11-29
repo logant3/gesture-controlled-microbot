@@ -1,6 +1,9 @@
 # Gesture-Controlled-Microbot
 A full custom-PCB system for wireless, gesture-based robot control. Includes Pico-powered flex-sensor glove (TX), NRF24L01 RF link, and a robot module with TB6612FNG motor driver, boost regulation, and SPI OLED eye animations. Demonstrates hardware, firmware, and system design.
 
+<img width="515" height="482" alt="main_microbot" src="https://github.com/user-attachments/assets/54e981be-6c59-4236-8146-5fb79c3923c6" />
+
+
 # Features
 * Custom-designed PCBs for both TX (glove) and RX (robot)
 
@@ -41,3 +44,4 @@ A separate 6V pack powers the motors, while a 3.7V LiPo → 5V boost converter p
 Two SPI OLED displays render expressive “robot eyes” using lightweight non-blocking animations.
 
 The robot moves immediately upon receiving a valid packet, but continues animating the eyes whenever idle.
+
